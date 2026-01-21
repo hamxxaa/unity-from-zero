@@ -1,0 +1,88 @@
+# It will ignore files in ALL sub-project folders recursively.
+
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/MemoryCaptures/
+**/Recordings/
+.utmp/
+*.log
+
+# --- Blender ---
+*.blend1
+*.blend1.meta
+
+# --- Asset Store Tools ---
+**/[Aa]ssets/AssetStoreTools*
+
+# --- JetBrains Rider ---
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# --- Visual Studio & Gradle Caches ---
+.vs/
+.vsconfig
+.vscode/
+.gradle/
+
+# --- Project Files (VS/MD/Consulo) ---
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Unity3D Generated Meta Files ---
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# --- Crash Reports ---
+sysinfo.txt
+mono_crash.*
+
+# --- Builds 
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+/builds
+
+# --- Crashlytics ---
+crashlytics-build.properties
+
+# --- TestRunner ---
+InitTestScene*.unity*
+
+# --- Addressables ---
+**/ServerData
+**/[Aa]ssets/StreamingAssets/aa*
+**/[Aa]ssets/AddressableAssetsData/link.xml*
+**/[Aa]ssets/Addressables_Temp*
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# --- Visual Scripting ---
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# --- Play Mode Tests ---
+**/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
