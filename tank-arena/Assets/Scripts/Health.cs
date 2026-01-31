@@ -73,7 +73,5 @@ public class Health : MonoBehaviour, IDamageable
         CurrentHealth = maxHealth;
 
         OnHealthChanged?.Invoke(1f);
-
-        Debug.Log("Player canı fullendi!");
     }
 }

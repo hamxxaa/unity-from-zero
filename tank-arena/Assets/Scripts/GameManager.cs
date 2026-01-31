@@ -150,7 +150,6 @@ public class GameManager : MonoBehaviour
     IEnumerator WaveCompleted()
     {
         isWaveActive = false;
-        Debug.Log("WAVE TAMAMLANDI! Dinleniliyor...");
 
         yield return new WaitForSeconds(timeBetweenWaves);
 
