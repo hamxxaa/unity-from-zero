@@ -1,10 +1,10 @@
-2D Precision Platformer
+# 2D Precision Platformer
 A 2D platformer prototype with no level design and only focusing on core mechanics implementation, and Unity's 2D level design tools.
 
-Overview
+## Overview
 Players navigate through obstacle-filled levels using tight, responsive controls. The objective is to collect all fruits in a level to unlock the exit door while avoiding traps like spikes. The project emphasizes fluid animation and modern 2D camera systems.
 
-Unity Fundamentals Used
+## Unity Fundamentals Used
 Tilemap System: Grid-based level design using Unity's Tile Palette and Brushes.
 
 2D Physics Optimization: Used CompositeCollider2D to merge complex tilemap colliders into a single geometry for performance.
